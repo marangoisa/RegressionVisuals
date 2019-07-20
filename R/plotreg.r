@@ -1,4 +1,4 @@
-plot_reg<-function(x,y,dat,titl,xlab,ylab,scx,scy,w,names,sepa,ini,font,logs,cv){
+plotreg<-function(x,y,dat,titl,xlab,ylab,scx,scy,w,names,sepa,ini,font,logs,cv){
   if(!require(ggplot2, quietly = TRUE)){install.packages('ggplot',dep = TRUE,quietly = TRUE)}
   if(missing(titl)){titl<-' '}
   if(missing(xlab)){xlab<-'x'}
