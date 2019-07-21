@@ -32,7 +32,9 @@ plotreg<-function(x,y,dat,titl,xlab,ylab,scx,scy,w,names,sepa,ini,font,logs,cv,n
   if(missing(sepa)){sepa<-1}
   if(missing(scx)){scx<-1}
   if(missing(scy)){scy<-1}
-  if(missing(names)){names<-rep(' ',nrow(dat))}
+  if(missing(names)){
+    dat$names<-' '
+    names<-'names'}
   if(missing(logs)){logs<-0}
   if(missing(nx)){nx<-0}
   if(missing(ny)){ny<-0}
