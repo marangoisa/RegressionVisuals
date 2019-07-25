@@ -1,7 +1,7 @@
 Package: RegressionVisuals
 Title: What the Package Does (one line, title case)
 Version: 0.0.0.9000
-Authors@R: person("Mauricio", "Arango", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("Mauricio", "Arango", email = "arangoi2@illinois.edu", role = c("aut", "cre"))
 Description: Set of functions that produces helpful visualizations for regressions.
 Depends: R (>= 3.5.0)
 License: GPL
