@@ -1,8 +1,8 @@
 Package: RegressionVisuals
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
+Title: Visualizations for regressions
+Version: 0.1
 Authors@R: person("Mauricio", "Arango", email = "arangoi2@illinois.edu", role = c("aut", "cre"))
-Description: Set of functions that produces helpful visualizations for regressions.
+Description: Set of functions that produces helpful visual representations (graphs and tables) for regression.
 Depends: R (>= 3.5.0)
 License: GPL
 Encoding: UTF-8
