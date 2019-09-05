@@ -10,10 +10,10 @@
 #' @param scy scale y variable. E.g 10s,100s, 1000s,... scy=1 by default
 #' @param w string with name of regression weights variable. Equal weight by default
 #' @param names string with name of data points labels. E.g. City, State, Country
-#' @param sepa parameter used to calibrate the frequency tick marks,  large values imply lower frequency. sepa=1 produces 1 tick mark pear observation
+#' @param sepa parameter used to calibrate the frequency tick marks,  large values imply lower frequency. sepa=0 produces 1 label pear data point
 #' @param ini number beyond which the frequency of names is reduced
 #' @param font plot font, serif by default
-#' @param logs use of logs in the regression, logs=0 y~x, logs=1: log(y)~log(x), logs=2: log(y)~log(x)
+#' @param logs use of logs in the regression, logs=0 y~x, logs=1: log(y)~log(x), logs=2: log(y)~x, logs=3: y~log(x)
 #' @param cv name of covariates
 #' @param nx horizontal adjustment for data points labels
 #' @param ny vertical adjustment for data points labels
