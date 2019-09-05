@@ -28,13 +28,13 @@ plotreg(x, y, dat, titl, xlab, ylab, scx, scy, w, names, sepa, ini, font,
 
 \item{names}{string with name of data points labels. E.g. City, State, Country}
 
-\item{sepa}{parameter used to calibrate the frequency tick marks,  large values imply lower frequency. sepa=1 produces 1 tick mark pear observation}
+\item{sepa}{parameter used to calibrate the frequency tick marks,  large values imply lower frequency. sepa=0 produces one label per data point}
 
 \item{ini}{number beyond which the frequency of names is reduced}
 
 \item{font}{plot font, serif by default}
 
-\item{logs}{use of logs in the regression, logs=0 y~x, logs=1: log(y)~log(x), logs=2: log(y)~log(x)}
+\item{logs}{use of logs in the regression, logs=0 y~x, logs=1: log(y)~log(x), logs=2: log(y)~x, logs=3: y~log(x)}
 
 \item{cv}{name of covariates}
 
